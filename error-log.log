@@ -1,0 +1,179 @@
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"error","message":"Joi.string.object is not a function Joi.string.object is not a function","stack":"TypeError: Joi.string.object is not a function\n    at validateUpdateProduct (G:\\TOPFRUIT\\backend\\app\\http\\validator\\ProductValidator.js:26:29)\n    at updateProduct (G:\\TOPFRUIT\\backend\\app\\http\\controler\\ProductController.js:35:27)\n    at newFn (G:\\TOPFRUIT\\backend\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (G:\\TOPFRUIT\\backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (G:\\TOPFRUIT\\backend\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at Route.dispatch (G:\\TOPFRUIT\\backend\\node_modules\\express\\lib\\router\\route.js:114:3)\n    at newFn (G:\\TOPFRUIT\\backend\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (G:\\TOPFRUIT\\backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at G:\\TOPFRUIT\\backend\\node_modules\\express\\lib\\router\\index.js:284:15\n    at param (G:\\TOPFRUIT\\backend\\node_modules\\express\\lib\\router\\index.js:365:14)"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"error","message":"loginValidator is not defined loginValidator is not defined","stack":"ReferenceError: loginValidator is not defined\n    at loginAdmin (G:\\TOPFRUIT\\backend\\app\\http\\controler\\ProductController.js:27:21)\n    at newFn (G:\\TOPFRUIT\\backend\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (G:\\TOPFRUIT\\backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (G:\\TOPFRUIT\\backend\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at Route.dispatch (G:\\TOPFRUIT\\backend\\node_modules\\express\\lib\\router\\route.js:114:3)\n    at newFn (G:\\TOPFRUIT\\backend\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (G:\\TOPFRUIT\\backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at G:\\TOPFRUIT\\backend\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (G:\\TOPFRUIT\\backend\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (G:\\TOPFRUIT\\backend\\node_modules\\express\\lib\\router\\index.js:280:10)"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"error","message":"jwt is not defined jwt is not defined","stack":"ReferenceError: jwt is not defined\n    at model.schemaAdmin.methods.generateAuthToken (G:\\TOPFRUIT\\backend\\app\\models\\Admin.js:15:5)\n    at loginAdmin (G:\\TOPFRUIT\\backend\\app\\http\\controler\\ProductController.js:44:25)"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"error","message":"jwt is not defined jwt is not defined","stack":"ReferenceError: jwt is not defined\n    at model.schemaAdmin.methods.generateAuthToken (G:\\TOPFRUIT\\backend\\app\\models\\Admin.js:15:5)\n    at loginAdmin (G:\\TOPFRUIT\\backend\\app\\http\\controler\\ProductController.js:43:25)"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"_message":"user validation failed","errors":{"phone":{"kind":"required","message":"Path `phone` is required.","name":"ValidatorError","path":"phone","properties":{"message":"Path `phone` is required.","path":"phone","type":"required"}}},"level":"error","message":"user validation failed: phone: Path `phone` is required. user validation failed: phone: Path `phone` is required.","stack":"ValidationError: user validation failed: phone: Path `phone` is required.\n    at model.Document.invalidate (G:\\TOPFRUIT\\backend\\node_modules\\mongoose\\lib\\document.js:3054:32)\n    at G:\\TOPFRUIT\\backend\\node_modules\\mongoose\\lib\\document.js:2842:17\n    at G:\\TOPFRUIT\\backend\\node_modules\\mongoose\\lib\\schematype.js:1349:9\n    at processTicksAndRejections (node:internal/process/task_queues:78:11)"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"_message":"user validation failed","errors":{"phone":{"kind":"required","message":"Path `phone` is required.","name":"ValidatorError","path":"phone","properties":{"message":"Path `phone` is required.","path":"phone","type":"required"}}},"level":"error","message":"user validation failed: phone: Path `phone` is required. user validation failed: phone: Path `phone` is required.","stack":"ValidationError: user validation failed: phone: Path `phone` is required.\n    at model.Document.invalidate (G:\\TOPFRUIT\\backend\\node_modules\\mongoose\\lib\\document.js:3054:32)\n    at G:\\TOPFRUIT\\backend\\node_modules\\mongoose\\lib\\document.js:2842:17\n    at G:\\TOPFRUIT\\backend\\node_modules\\mongoose\\lib\\schematype.js:1349:9\n    at processTicksAndRejections (node:internal/process/task_queues:78:11)"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"error","message":"db is not defined db is not defined","stack":"ReferenceError: db is not defined\n    at getOneForUser (G:\\TOPFRUIT\\backend\\app\\http\\controler\\ProductController.js:92:22)\n    at newFn (G:\\TOPFRUIT\\backend\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (G:\\TOPFRUIT\\backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (G:\\TOPFRUIT\\backend\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at Route.dispatch (G:\\TOPFRUIT\\backend\\node_modules\\express\\lib\\router\\route.js:114:3)\n    at newFn (G:\\TOPFRUIT\\backend\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (G:\\TOPFRUIT\\backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at G:\\TOPFRUIT\\backend\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (G:\\TOPFRUIT\\backend\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (G:\\TOPFRUIT\\backend\\node_modules\\express\\lib\\router\\index.js:280:10)"}
+{"level":"info","message":"db connected"}
+{"level":"error","message":"data is not defined data is not defined","stack":"ReferenceError: data is not defined\n    at getOneForUser (G:\\TOPFRUIT\\backend\\app\\http\\controler\\ProductController.js:108:14)\n    at newFn (G:\\TOPFRUIT\\backend\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (G:\\TOPFRUIT\\backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (G:\\TOPFRUIT\\backend\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at Route.dispatch (G:\\TOPFRUIT\\backend\\node_modules\\express\\lib\\router\\route.js:114:3)\n    at newFn (G:\\TOPFRUIT\\backend\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (G:\\TOPFRUIT\\backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at G:\\TOPFRUIT\\backend\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (G:\\TOPFRUIT\\backend\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (G:\\TOPFRUIT\\backend\\node_modules\\express\\lib\\router\\index.js:280:10)"}
+{"level":"info","message":"db connected"}
+{"level":"error","message":"data is not defined data is not defined","stack":"ReferenceError: data is not defined\n    at getOneForUser (G:\\TOPFRUIT\\backend\\app\\http\\controler\\ProductController.js:108:14)\n    at newFn (G:\\TOPFRUIT\\backend\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (G:\\TOPFRUIT\\backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (G:\\TOPFRUIT\\backend\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at Route.dispatch (G:\\TOPFRUIT\\backend\\node_modules\\express\\lib\\router\\route.js:114:3)\n    at newFn (G:\\TOPFRUIT\\backend\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (G:\\TOPFRUIT\\backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at G:\\TOPFRUIT\\backend\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (G:\\TOPFRUIT\\backend\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (G:\\TOPFRUIT\\backend\\node_modules\\express\\lib\\router\\index.js:280:10)"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"error","message":"data is not defined data is not defined","stack":"ReferenceError: data is not defined\n    at getOneForUser (G:\\TOPFRUIT\\backend\\app\\http\\controler\\ProductController.js:108:14)\n    at newFn (G:\\TOPFRUIT\\backend\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (G:\\TOPFRUIT\\backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (G:\\TOPFRUIT\\backend\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at Route.dispatch (G:\\TOPFRUIT\\backend\\node_modules\\express\\lib\\router\\route.js:114:3)\n    at newFn (G:\\TOPFRUIT\\backend\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (G:\\TOPFRUIT\\backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at G:\\TOPFRUIT\\backend\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (G:\\TOPFRUIT\\backend\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (G:\\TOPFRUIT\\backend\\node_modules\\express\\lib\\router\\index.js:280:10)"}
+{"level":"info","message":"db connected"}
+{"level":"error","message":"result is not defined result is not defined","stack":"ReferenceError: result is not defined\n    at getOneForUser (G:\\TOPFRUIT\\backend\\app\\http\\controler\\ProductController.js:108:14)\n    at newFn (G:\\TOPFRUIT\\backend\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (G:\\TOPFRUIT\\backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (G:\\TOPFRUIT\\backend\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at Route.dispatch (G:\\TOPFRUIT\\backend\\node_modules\\express\\lib\\router\\route.js:114:3)\n    at newFn (G:\\TOPFRUIT\\backend\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (G:\\TOPFRUIT\\backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at G:\\TOPFRUIT\\backend\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (G:\\TOPFRUIT\\backend\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (G:\\TOPFRUIT\\backend\\node_modules\\express\\lib\\router\\index.js:280:10)"}
+{"level":"info","message":"db connected"}
+{"level":"error","message":"restaurant is not defined restaurant is not defined","stack":"ReferenceError: restaurant is not defined\n    at addProduct (G:\\TOPFRUIT\\backend\\app\\http\\controler\\ProductController.js:61:5)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"error","message":"restaurant is not defined restaurant is not defined","stack":"ReferenceError: restaurant is not defined\n    at addProduct (G:\\TOPFRUIT\\backend\\app\\http\\controler\\ProductController.js:61:5)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"error","message":"restaurant is not defined restaurant is not defined","stack":"ReferenceError: restaurant is not defined\n    at addProduct (G:\\TOPFRUIT\\backend\\app\\http\\controler\\ProductController.js:61:5)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"code":"ENOENT","errno":-4058,"level":"error","message":"ENOENT: no such file or directory, open 'G:\\TOPFRUIT\\backend\\uploads\\1666365217736-watermelon.jpg' ENOENT: no such file or directory, open 'G:\\TOPFRUIT\\backend\\uploads\\1666365217736-watermelon.jpg'","path":"G:\\TOPFRUIT\\backend\\uploads\\1666365217736-watermelon.jpg","stack":"Error: ENOENT: no such file or directory, open 'G:\\TOPFRUIT\\backend\\uploads\\1666365217736-watermelon.jpg'","storageErrors":[],"syscall":"open"}
+{"level":"info","message":"db connected"}
+{"level":"error","message":"Found non-callable @@iterator Found non-callable @@iterator","stack":"TypeError: Found non-callable @@iterator\n    at addProduct (G:\\TOPFRUIT\\backend\\app\\http\\controler\\ProductController.js:63:20)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"info","message":"db connected"}
+{"level":"error","message":"Found non-callable @@iterator Found non-callable @@iterator","stack":"TypeError: Found non-callable @@iterator\n    at addProduct (G:\\TOPFRUIT\\backend\\app\\http\\controler\\ProductController.js:64:20)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"error","message":"products.push is not a function products.push is not a function","stack":"TypeError: products.push is not a function\n    at addProduct (G:\\TOPFRUIT\\backend\\app\\http\\controler\\ProductController.js:68:14)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"error","message":"products.push is not a function products.push is not a function","stack":"TypeError: products.push is not a function\n    at addProduct (G:\\TOPFRUIT\\backend\\app\\http\\controler\\ProductController.js:68:14)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"error","message":"Callback must be a function, got [object Object] Callback must be a function, got [object Object]","stack":"MongooseError: Callback must be a function, got [object Object]\n    at Function.Model.$handleCallbackError (G:\\TOPFRUIT\\backend\\node_modules\\mongoose\\lib\\model.js:5167:11)\n    at Function.Model.findByIdAndUpdate (G:\\TOPFRUIT\\backend\\node_modules\\mongoose\\lib\\model.js:2732:19)\n    at updateProduct (G:\\TOPFRUIT\\backend\\app\\http\\controler\\ProductController.js:164:39)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"info","message":"db connected"}
+{"level":"error","message":"Callback must be a function, got [object Object] Callback must be a function, got [object Object]","stack":"MongooseError: Callback must be a function, got [object Object]\n    at Function.Model.$handleCallbackError (G:\\TOPFRUIT\\backend\\node_modules\\mongoose\\lib\\model.js:5167:11)\n    at Function.Model.findByIdAndUpdate (G:\\TOPFRUIT\\backend\\node_modules\\mongoose\\lib\\model.js:2732:19)\n    at updateProduct (G:\\TOPFRUIT\\backend\\app\\http\\controler\\ProductController.js:164:39)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"error","message":"products is not defined products is not defined","stack":"ReferenceError: products is not defined\n    at updateProduct (G:\\TOPFRUIT\\backend\\app\\http\\controler\\ProductController.js:177:5)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"code":"ERR_HTTP_INVALID_STATUS_CODE","level":"error","message":"Invalid status code: {\n  name: 'سیب گلاب',\n  price: 12000,\n  productWeight: 1000,\n  productType: 'میوه جات',\n  pic: '1666450022104-melon.jpg'\n} Invalid status code: {\n  name: 'سیب گلاب',\n  price: 12000,\n  productWeight: 1000,\n  productType: 'میوه جات',\n  pic: '1666450022104-melon.jpg'\n}","stack":"RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: {\n  name: 'سیب گلاب',\n  price: 12000,\n  productWeight: 1000,\n  productType: 'میوه جات',\n  pic: '1666450022104-melon.jpg'\n}\n    at new NodeError (node:internal/errors:372:5)\n    at ServerResponse.writeHead (node:_http_server:275:11)\n    at ServerResponse._implicitHeader (node:_http_server:266:8)\n    at write_ (node:_http_outgoing:766:9)\n    at ServerResponse.end (node:_http_outgoing:855:5)\n    at ServerResponse.send (G:\\TOPFRUIT\\backend\\node_modules\\express\\lib\\response.js:232:10)\n    at updateProduct (G:\\TOPFRUIT\\backend\\app\\http\\controler\\ProductController.js:181:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"code":"ERR_HTTP_INVALID_STATUS_CODE","level":"error","message":"Invalid status code: {\n  name: 'سیب گلاب',\n  price: 12000,\n  productWeight: 1000,\n  productType: 'میوه جات'\n} Invalid status code: {\n  name: 'سیب گلاب',\n  price: 12000,\n  productWeight: 1000,\n  productType: 'میوه جات'\n}","stack":"RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: {\n  name: 'سیب گلاب',\n  price: 12000,\n  productWeight: 1000,\n  productType: 'میوه جات'\n}\n    at new NodeError (node:internal/errors:372:5)\n    at ServerResponse.writeHead (node:_http_server:275:11)\n    at ServerResponse._implicitHeader (node:_http_server:266:8)\n    at write_ (node:_http_outgoing:766:9)\n    at ServerResponse.end (node:_http_outgoing:855:5)\n    at ServerResponse.send (G:\\TOPFRUIT\\backend\\node_modules\\express\\lib\\response.js:232:10)\n    at updateProduct (G:\\TOPFRUIT\\backend\\app\\http\\controler\\ProductController.js:181:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"info","message":"db connected"}
+{"level":"error","message":"pic is not defined pic is not defined","stack":"ReferenceError: pic is not defined\n    at updateProduct (G:\\TOPFRUIT\\backend\\app\\http\\controler\\ProductController.js:162:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"info","message":"db connected"}
+{"level":"error","message":"Callback must be a function, got [object Object] Callback must be a function, got [object Object]","stack":"MongooseError: Callback must be a function, got [object Object]\n    at Function.Model.$handleCallbackError (G:\\TOPFRUIT\\backend\\node_modules\\mongoose\\lib\\model.js:5167:11)\n    at Function.Model.findByIdAndUpdate (G:\\TOPFRUIT\\backend\\node_modules\\mongoose\\lib\\model.js:2732:19)\n    at updateProduct (G:\\TOPFRUIT\\backend\\app\\http\\controler\\ProductController.js:166:39)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"info","message":"db connected"}
+{"level":"error","message":"Callback must be a function, got [object Object] Callback must be a function, got [object Object]","stack":"MongooseError: Callback must be a function, got [object Object]\n    at Function.Model.$handleCallbackError (G:\\TOPFRUIT\\backend\\node_modules\\mongoose\\lib\\model.js:5167:11)\n    at Function.Model.findByIdAndUpdate (G:\\TOPFRUIT\\backend\\node_modules\\mongoose\\lib\\model.js:2732:19)\n    at updateProduct (G:\\TOPFRUIT\\backend\\app\\http\\controler\\ProductController.js:166:39)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"error","message":"Cannot read properties of undefined (reading 'path') Cannot read properties of undefined (reading 'path')","stack":"TypeError: Cannot read properties of undefined (reading 'path')\n    at deleteProduct (G:\\TOPFRUIT\\backend\\app\\http\\controler\\ProductController.js:157:32)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"kind":"ObjectId","level":"error","message":"Cast to ObjectId failed for value \"شلیل\" (type string) at path \"_id\" for model \"products\" Cast to ObjectId failed for value \"شلیل\" (type string) at path \"_id\" for model \"products\"","path":"_id","reason":{},"stack":"CastError: Cast to ObjectId failed for value \"شلیل\" (type string) at path \"_id\" for model \"products\"\n    at model.Query.exec (G:\\TOPFRUIT\\backend\\node_modules\\mongoose\\lib\\query.js:4884:21)\n    at model.Query.Query.then (G:\\TOPFRUIT\\backend\\node_modules\\mongoose\\lib\\query.js:4983:15)","stringValue":"\"شلیل\"","value":"شلیل","valueType":"string"}
+{"level":"info","message":"db connected"}
+{"level":"error","message":"Parameter \"filter\" to findOne() must be an object, got شلیل Parameter \"filter\" to findOne() must be an object, got شلیل","stack":"ObjectParameterError: Parameter \"filter\" to findOne() must be an object, got شلیل\n    at model.Query.Query.findOne (G:\\TOPFRUIT\\backend\\node_modules\\mongoose\\lib\\query.js:2588:16)\n    at Function.findOne (G:\\TOPFRUIT\\backend\\node_modules\\mongoose\\lib\\model.js:2329:13)\n    at searchProducts (G:\\TOPFRUIT\\backend\\app\\http\\controler\\ProductController.js:101:37)\n    at newFn (G:\\TOPFRUIT\\backend\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (G:\\TOPFRUIT\\backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (G:\\TOPFRUIT\\backend\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at Route.dispatch (G:\\TOPFRUIT\\backend\\node_modules\\express\\lib\\router\\route.js:114:3)\n    at newFn (G:\\TOPFRUIT\\backend\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (G:\\TOPFRUIT\\backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at G:\\TOPFRUIT\\backend\\node_modules\\express\\lib\\router\\index.js:284:15"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
+{"level":"info","message":"db connected"}
