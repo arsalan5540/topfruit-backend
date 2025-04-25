@@ -19,6 +19,7 @@ const validateCreateProduct = (data) => {
     productWeight: Joi.number().required(),
     productType: Joi.string().required(),
     pic: Joi.string(),
+    Inventory : Joi.boolean(),
   });
   return schema.validate(data);
 };
@@ -29,7 +30,8 @@ const validateUpdateProduct = (data) => {
     price: Joi.number(),
     productWeight: Joi.number(),
     productType: Joi.string(),
-    pic: Joi.string(),
+    Inventory: Joi.boolean(),
+    // pic: Joi.string(),
   });
   return schema.validate(data);
 };

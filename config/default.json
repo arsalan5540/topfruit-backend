@@ -1,4 +1,4 @@
 {
-    "databaseAddress" : "address",
-    "jwtPrivateKey": "NodeCoursePrivateKey"
+    "databaseAddress" : "mongodb+srv://arsalan5540:<amir13795540>@cluster0.eguw45j.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+    "jwtPrivateKey": "topfruit_super_secret_token"
 }

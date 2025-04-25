@@ -1,18 +1,27 @@
-const mongoose = require('mongoose');
-const config = require('config');
-const jwt = require('jsonwebtoken');
+const mongoose = require("mongoose");
+const config = require("config");
+const jwt = require("jsonwebtoken");
+
 
 const basketSchema = new mongoose.Schema({
-  pr : [
+  products: [
     {
       name: String,
       productId: String,
       price: Number,
       count: Number,
       productWeight: Number,
-      productType : String
-    }
-  ]
+    },
+  ],
+  userData: [
+    {
+      name: String,
+      phone: String,
+      address: String,
+      description: String,
+      time: String,
+    },
+  ],
 });
 
 const schema = new mongoose.Schema({
@@ -27,7 +36,10 @@ const schema = new mongoose.Schema({
   password: {
     type: String,
   },
-  basket: basketSchema
+  basket: basketSchema,
+  totalPrice: {
+    type: Number,
+  },
 });
 
 schema.methods.generateAuthToken = function () {
@@ -36,10 +48,9 @@ schema.methods.generateAuthToken = function () {
     role: "user",
   };
 
-  return jwt.sign(data, config.get('jwtPrivateKey'));
+  return jwt.sign(data, config.get("jwtPrivateKey"));
 };
 
-const model = mongoose.model('user', schema);
+const model = mongoose.model("user", schema);
 
 module.exports = model;
-

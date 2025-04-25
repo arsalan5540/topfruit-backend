@@ -1,0 +1,8 @@
+{
+    "disks": [
+      {
+        "name": "topfruitdisk",
+        "mountTo": "uploads"
+      }
+    ]
+  }

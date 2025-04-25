@@ -12,6 +12,7 @@ const schemaProduct = new mongoose.Schema({
   productWeight: { type: Number, required: true },
   productType: { type: String, required: true },
   pic: String,
+  Inventory: Boolean,
 });
 
 // schemaProduct.methods.generateAuthToken = function () {
